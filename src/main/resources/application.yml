@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://abhishekshedge:abhishekshedge@cluster0.rrmycll.mongodb.net/?retryWrites=true&w=majority
+      database: Blog
