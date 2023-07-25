@@ -3,3 +3,14 @@ spring:
     mongodb:
       uri: mongodb+srv://abhishekshedge:abhishekshedge@cluster0.rrmycll.mongodb.net/?retryWrites=true&w=majority
       database: Blog
+
+  mail:
+      host: smtp.gmail.com  # Replace with your SMTP server host (e.g., smtp.gmail.com)
+      port: 587  # Replace with your SMTP server port (e.g., 587
+      username: abhishedgeop@gmail.com
+      password: fhmytdjqmhwlzvni
+      properties:
+        mail:
+          smtp:
+            auth: true
+            starttls.enable: true
